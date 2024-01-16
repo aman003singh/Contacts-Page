@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Mooli&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,300&family=Rubik:wght@300;400;500;700&display=swap');
+
+:root {}
+
+* {
+    margin: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.container {
+    display: flex;
+    /* max-width: 1280px; */
+    max-width: auto;
+    justify-content: space-between;
+    margin: 0 auto;
+    height: auto;
+    align-items: center;
+    padding: 0 22px;
+}
+
+.container ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    font-weight: 500;
+}
+
+.contact h1 {
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.contact p {
+    font-weight: 500;
+
+}
+
+.contact {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.form {
+    display: flex;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.Btn {
+    padding: 15px 10px;
+    background-color: black;
+    color: white;
+    min-width: 220px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 16px;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.outline_btn {
+    padding: 15px 10px;
+    border: 1px solid black;
+    color: black;
+    min-width: 220px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 16px;
+    justify-content: center;
+    background: transparent;
+    width: 100%;
+    cursor: pointer;
+
+}
+
+.topbuttons {
+    display: flex;
+    gap: 32px;
+
+}
+
+.Contactform {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.form_controller {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position:relative;
+}
+
+.form_controller input {
+    height: 40px;
+    padding: 0 8px;
+}
+.form_controller textarea {
+    padding:8px;
+}
+
+.form_controller label {
+    position: absolute;
+    top: -12px;
+    left: 10px;
+    background-color: white;
+    padding: 0 10px;
+    font-size: 14px;
+
+}
+
+.forminput{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 100%;
+
+}
